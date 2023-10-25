@@ -3,7 +3,7 @@
 This repository hosts a project that allows for simplified control over YouTube Music on Android. Should you wish to create a similar version, you might find this useful. The project combines T-vK's `ESP32-BLE-Keyboard` library with Android's `Tasker` app to execute various actions.
 
 ## Key Discoveries:
-1. **YouTube Music's AndroidManifest.xml**: I uncovered the intents used by the app's widget - `com.google.android.youtube.music.pendingintent.controller_widget_like` and `com.google.android.youtube.music.pendingintent.controller_widget_dislike`. These can be employed within Tasker to control the app.
+1. [**YouTube Music's AndroidManifest.xml**](https://pastebin.com/hZAZ4B8j): I uncovered the intents used by the app's widget - `com.google.android.youtube.music.pendingintent.controller_widget_like` and `com.google.android.youtube.music.pendingintent.controller_widget_dislike`. These can be employed within Tasker to control the app.
    
 2. **ESP32-BLE-Keyboard Library**: This library offers handy keys for control like `KEY_MEDIA_PLAY_PAUSE`, `KEY_MEDIA_NEXT_TRACK`, and `KEY_MEDIA_PREVIOUS_TRACK`.
 
