@@ -1,4 +1,4 @@
-
+//This is just temporary while i wait for the phisical buttons to arrive
 #include <BleKeyboard.h>
 
 BleKeyboard bleKeyboard;
