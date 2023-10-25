@@ -8,7 +8,13 @@ This repository hosts a project that allows for simplified control over YouTube 
 2. **ESP32-BLE-Keyboard Library**: This library offers handy keys for control like `KEY_MEDIA_PLAY_PAUSE`, `KEY_MEDIA_NEXT_TRACK`, and `KEY_MEDIA_PREVIOUS_TRACK`.
 
 ## Workflow:
-The Tasker task gets activated upon sending the `-` or `+` numpad key from the ESP-32, provided Tasker detects the ESP-32 keyboard's connection.
+
+The system operates as follows:
+
+1. **Tasker Activation**: When the `-` or `+` numpad key is sent from the ESP-32, Tasker gets activated, assuming it detects the ESP-32 keyboard's connection.
+2. **Other Commands**: Commands such as play/pause, skip, and back are managed directly by the ESP-32 without needing Tasker.
+
+This ensures a seamless interaction between the ESP-32 and YouTube Music on Android.
 
 ## Dependencies:
 - [ESP32-BLE-Keyboard Library](https://github.com/T-vK/ESP32-BLE-Keyboard)
