@@ -33,6 +33,10 @@ Simply click on the provided links to import them into Tasker.
 
 To create this controller, follow these steps:
 
+1. **Flash the ESP-32**:
+   - Connect the ESP-32 to your computer. Ensure you have all necessary drivers installed.
+   - Utilize the Arduino IDE to upload the code provided in this repo to the ESP-32.
+   
 2. **Button Connections**:
     - Connect one side of each button to a common ground.
     - Connect the other side of each button to the corresponding GPIO pin on the ESP-32:
