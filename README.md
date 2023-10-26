@@ -29,8 +29,26 @@ For those following my tutorial, setting up Tasker is straightforward. You'll ne
 
 Simply click on the provided links to import them into Tasker.
 
-## How to Use:
-Detailed instructions on how to set up and utilize this project will be provided soon. Stay tuned!
+## How to Build:
+
+To create this controller, follow these steps:
+
+2. **Button Connections**:
+    - Connect one side of each button to a common ground.
+    - Connect the other side of each button to the corresponding GPIO pin on the ESP-32:
+      - **Dislike**: Pin 13
+      - **Like**: Pin 14
+      - **Play/Pause**: Pin 15
+      - **Next Song**: Pin 18
+      - **Previous Song**: Pin 19
+
+3. **Assembly**: After making all the connections, i fitted all components into an enclosure to conceal the cables and give it a professional appearance.
+
+Once assembled, your controller is ready for use with YouTube Music, just connect it using bluetooth to your Android device.
+
+## Finished Build:
+
+![WhatsApp Image 2023-10-26 at 14 15 07_8c7b3e8a](https://github.com/mattestanka/Youtube-Music-Controller/assets/53266220/5dc99bad-ac48-4968-824a-dcc554dbc227)
 
 ---
 
